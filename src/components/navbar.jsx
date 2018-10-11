@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 // Stateless Functional Component - define a function that returns a react element
 const NavBar = ({ totalCounters }) => {
+  console.log("NavBar - Rendered");
+
   return (
     <nav className="navbar navbar-light bg-light">
       <a className="navbar-brand" href="#">
